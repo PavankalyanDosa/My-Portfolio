@@ -30,16 +30,18 @@ h2{
 }
 
 .FlagRed{
-    position: absolute;
+    position: relative;
     background-size: 2px;
     padding-left: 22.5%;
     overflow: hidden;
     text-align: unset;
-    padding-top: 14.7%;
+    padding-top: 15.5em;
+    object-fit: cover;
 }
 
 
 .FlagGreen{
+  object-fit: cover;
     position: absolute;
     background-size: 2px;
     padding-left: 65%;
@@ -169,30 +171,9 @@ h2{
     margin-right: auto;
     margin-left: auto;
   }
-  .container-md{
 
-  }
   
-  @media (min-width: 576px) {
-    .container, .container-sm, .FlagRed,.FlagGreen {
-      max-width: 540px;
-    }
-  }
   
-  @media (min-width: 768px) {
-    .container, .container-sm, .container-md,.FlagRed,.FlagGreen {
-      max-width: 720px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container, .container-sm, .container-md, .container-lg,.FlagRed,.FlagGreen {
-      max-width: 960px;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container, .container-sm, .container-md, .container-lg, .container-xl,.FlagRed,.FlagGreen {
-      max-width: 1140px;
-    }
+  .container-sm {
+    object-fit: cover;
   }

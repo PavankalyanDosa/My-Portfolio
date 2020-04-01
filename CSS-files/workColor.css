@@ -89,6 +89,7 @@ h1{
     font-size: 4.025rem;
     font-family: 'Sacramento', cursive;
     /* font-style: cursive; */
+    padding-top: 4%;
     text-decoration-style: solid;
     position: absolute;
     padding-left: 45%;
